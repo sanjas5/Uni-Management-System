@@ -1,0 +1,325 @@
+body {
+    background-color: whitesmoke;
+ }
+ .default body {
+    background-color: black;
+    background-image: none;
+ }
+ 
+ .predmet {
+    background-color: ghostwhite;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+ }
+ 
+ .prikazPredmeta {
+    margin-top: 50px;
+ }
+ 
+ .modul {
+    margin-left: 10px;
+ }
+ 
+ .evidencija {
+    margin-top: 5%;
+    width: 85%;
+ }
+ 
+ .predmetEvidencija {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;
+    margin-top: 20px;
+ }
+ 
+ .dodajEvidenciju {
+    width: 80%;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+ }
+ 
+ .evidencijaOdKuce {
+    width: 150%;
+    margin-left: 20%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+ }
+ .evidencijaOdKuce h5 {
+    margin-left: 20px;
+ }
+ .zahtjevi {
+    margin-top: 10px;
+ }
+ 
+ .evidencijaOdKuce Button {
+    margin-left: 20px;
+ }
+ .zahtjevi {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+ }
+ .zahtjevi_korisnik {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 10%;
+    width: 100%;
+    padding: 10px;
+ }
+ 
+ .forma {
+    text-align: left;
+ }
+ .predmetInfo {
+    width: 80%;
+    margin-left: 20px;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+ }
+ 
+ .predmetInfo Button {
+    margin-left: 5px;
+ }
+ 
+ .d {
+    margin-top: 10px;
+    background-color: lightcoral;
+ }
+ .d:hover {
+    background-color: darkgreen;
+ }
+ .dodaj_predmet {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 90%;
+ }
+ 
+ .nastOsobModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+    justify-content: center;
+ }
+ 
+ .profesori {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ hr {
+    background-color: #00000078;
+    height: 0.1px;
+    width: 100%;
+ }
+ 
+ .forma_korisnik {
+    width: 60%;
+    margin-left: 1%;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+ }
+ .forma_korisnik_button {
+    margin-left: 1%;
+    background-color: darkgreen;
+ }
+ .forma_korisnik_button:hover,
+ .forma_korisnik_button:active {
+    background-color: lightcoral;
+ }
+ 
+ img {
+    position: relative;
+    top: 10px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+ }
+ .kartica {
+    padding: 20px;
+    background-color: white;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+ }
+ 
+ h5 {
+    color: darkgreen;
+    text-transform: uppercase;
+ }
+ 
+ .promjena {
+    margin-left: 180px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+ }
+ 
+ .promjena:hover {
+    background-color: rgb(0, 100, 0);
+ }
+ 
+ .dropdownBtn {
+    margin-left: 17px;
+ }
+ 
+ .sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: rgb(151, 160, 189);
+    position: fixed;
+    left: 0;
+    padding-top: 20px;
+ }
+ 
+ .sideBarList {
+    height: auto;
+    width: 100%;
+    padding: 0;
+ }
+ .sideBarList .sidebarlistitem {
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0;
+    flex-direction: row;
+    color: white;
+    justify-content: right;
+    padding-left: 20px;
+    padding-top: 10px;
+    align-content: center;
+    flex: 100%;
+ }
+ .sideBarList :hover {
+    cursor: pointer;
+    background-color: rgba(0, 100, 0, 0.7);
+ }
+ 
+ .navbar {
+    background-color: rgb(151, 160, 189);
+    font-family: "Lobster", cursive;
+ }
+ 
+ .nazivApp {
+    font-size: 12px;
+    margin-left: 10px;
+    text-transform: uppercase;
+ }
+ 
+ .podaci {
+    margin-left: 30px;
+ }
+ 
+ .user {
+    font-weight: bolder;
+    color: rgb(0, 100, 0);
+    text-transform: uppercase;
+ }
+ 
+ .odjava {
+    position: absolute;
+    right: 20px;
+    background-color: rgb(0, 100, 0);
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+ }
+ 
+ .odjava:hover {
+    background-color: lightcoral;
+ }
+ 
+ .fiksiraj {
+    margin-bottom: 56px;
+ }
+ 
+ .proba {
+    text-align: left;
+    margin-left: 50px;
+ }
+ .crvena {
+    text-align: left;
+    margin-left: 50px;
+    color: red;
+ }
+ .zelena {
+    text-align: left;
+    margin-left: 50px;
+    color: green;
+ }
+ .crvena1 {
+    color: red;
+    font-weight: bold;
+ }
+ .zelena1 {
+    color: green;
+    font-weight: bold;
+ }
+ .desno {
+    margin-left: 30px;
+ }
+ .zuta {
+    color: yellow;
+    font-weight: bold;
+ }
+ .narandzasta {
+    color: orange;
+    font-weight: bold;
+ }
+ 
+ table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+ }
+ 
+ table td,
+ table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 250px;
+ }
+ 
+ table tr:hover {
+    background-color: #ddd;
+ }
+ 
+ table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(151, 160, 189);
+    color: white;
+ }
+ 
+ .naslovcic {
+    color: #04aa6d;
+    width: 250px;
+ }
+ 
